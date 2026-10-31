@@ -16,7 +16,7 @@
     }
   },
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build --base /soap/",
     "dev": "slidev --open",
     "export": "slidev export"
   },
