@@ -25,9 +25,9 @@ mdc: true
     <div class="photo-hint">Có thể thay phần minh họa này bằng ảnh thành phẩm của nhóm.</div>
   </div>
 </div>
+<img class="kawaii-sticker kawaii-cover-sticker" src="/stickers/mascot-soap.svg" alt="" aria-hidden="true" />
 
 ---
-
 # Từ dầu dừa đến xà phòng
 
 <div class="section-lead">Một sản phẩm quen thuộc được tạo ra như thế nào từ phản ứng hóa học?</div>
@@ -46,9 +46,9 @@ mdc: true
 </div>
 
 <div class="bottom-note">MẠCH BÁO CÁO: NGUYÊN LÝ → QUÁ TRÌNH → KẾT QUẢ</div>
+<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/mascot-soap.svg" alt="" aria-hidden="true" />
 
 ---
-
 # Mục tiêu thực hành
 
 <div class="section-lead">Nhóm không chỉ tạo ra sản phẩm mà còn vận dụng kiến thức Hóa học để giải thích quá trình.</div>
@@ -73,9 +73,9 @@ mdc: true
     <p>Rèn luyện sự cẩn thận, chính xác, hợp tác và ý thức an toàn.</p>
   </div>
 </div>
+<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/flask.svg" alt="" aria-hidden="true" />
 
 ---
-
 # Nguyên liệu & dụng cụ
 
 <div class="section-lead">Mỗi thành phần có một vai trò riêng trong quá trình thực hành.</div>
@@ -98,9 +98,9 @@ mdc: true
 </div>
 
 <div class="bottom-note">ĐỊNH LƯỢNG THEO PHIẾU THỰC HÀNH ĐÃ ĐƯỢC GIÁO VIÊN DUYỆT.</div>
+<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/coconut.svg" alt="" aria-hidden="true" />
 
 ---
-
 # Cơ sở lý thuyết · Phản ứng xà phòng hóa
 
 <div class="section-lead">Xà phòng hóa là phản ứng thủy phân chất béo trong môi trường kiềm.</div>
@@ -128,9 +128,9 @@ mdc: true
 </div>
 
 <div class="bottom-note">R ĐẠI DIỆN CHO GỐC HYDROCARBON CỦA AXIT BÉO.</div>
+<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/mascot-book.svg" alt="" aria-hidden="true" />
 
 ---
-
 # Vì sao xà phòng có thể làm sạch?
 
 <div class="section-lead">Muối natri của axit béo có hai phần với tính chất khác nhau.</div>
@@ -151,9 +151,9 @@ mdc: true
 </div>
 
 <div class="micro-note">MỞ RỘNG: CÁC PHÂN TỬ XÀ PHÒNG TẬP HỢP THÀNH MICELLE, GIÚP PHÂN TÁN DẦU MỠ TRONG NƯỚC.</div>
+<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/molecule.svg" alt="" aria-hidden="true" />
 
 ---
-
 # Quá trình thực hành
 
 <div class="section-lead">Nhìn lại các giai đoạn chính mà nhóm đã thực hiện dưới sự hướng dẫn của giáo viên.</div>
@@ -166,9 +166,9 @@ mdc: true
 </div>
 
 <div class="safety-callout"><b>Giới hạn của slide:</b> Đây là sơ đồ tường thuật quá trình đã thực hiện, không phải hướng dẫn thao tác để tự điều chế NaOH hoặc xà phòng.</div>
+<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/flask.svg" alt="" aria-hidden="true" />
 
 ---
-
 # Một số lưu ý
 
 <div class="section-lead">Những điểm cần ghi nhớ trong quá trình thực hành.</div>
@@ -182,9 +182,9 @@ mdc: true
 </div>
 
 <div class="bottom-note source-safety-footnote">CHỈ SỬ DỤNG XÀ PHÒNG TRÊN DA KHI ĐÃ ĐƯỢC KIỂM TRA VÀ ĐẢM BẢO AN TOÀN.</div>
+<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/soap-bars.svg" alt="" aria-hidden="true" />
 
 ---
-
 # Những gì nhóm đã quan sát
 
 <div class="section-lead">Ảnh thực tế giúp minh họa các giai đoạn và đối chiếu với diễn biến được mô tả trong lý thuyết.</div>
@@ -205,9 +205,9 @@ mdc: true
 </div>
 
 <div class="bottom-note">CHỈ GHI NHẬN NHỮNG GÌ NHÓM THỰC SỰ QUAN SÁT.</div>
+<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/mascot-check.svg" alt="" aria-hidden="true" />
 
 ---
-
 # Thành phẩm của nhóm
 
 <div class="section-lead">Đây là phần quan trọng nhất của báo cáo: sản phẩm thực tế và những đặc điểm nhóm ghi nhận.</div>
@@ -225,9 +225,9 @@ mdc: true
 </div>
 
 <div class="bottom-note">THAY CÁC Ô TRỐNG BẰNG KẾT QUẢ THỰC TẾ CỦA NHÓM.</div>
+<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/soap-bars.svg" alt="" aria-hidden="true" />
 
 ---
-
 # Đánh giá & ứng dụng
 
 <div class="section-lead">Đánh giá sản phẩm cần dựa trên quan sát và kiểm tra phù hợp, không chỉ dựa vào hình thức.</div>
@@ -243,9 +243,9 @@ mdc: true
   <div><b>HỌC TẬP</b><span>Vận dụng Hóa học</span></div>
   <div><b>PHÁT TRIỂN</b><span>Ý tưởng sản phẩm thủ công</span></div>
 </div>
+<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/coconut.svg" alt="" aria-hidden="true" />
 
 ---
-
 <div class="closing-slide final-report">
   <div class="eyebrow">TỔNG KẾT BÁO CÁO THỰC HÀNH</div>
   <h1>TỪ KIẾN THỨC<br/><span>ĐẾN SẢN PHẨM</span></h1>
@@ -257,3 +257,5 @@ mdc: true
   <div class="cover-rule"></div>
   <h2>CẢM ƠN CÔ VÀ CÁC BẠN ĐÃ LẮNG NGHE!</h2>
 </div>
+<img class="kawaii-sticker kawaii-closing-sticker" src="/stickers/mascot-soap.svg" alt="" aria-hidden="true" />
+

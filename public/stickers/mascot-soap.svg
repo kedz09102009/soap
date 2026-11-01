@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<defs>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#397eac" flood-opacity=".18"/></filter>
+ <linearGradient id="soap" x2="0" y2="1"><stop stop-color="#fff4cf"/><stop offset="1" stop-color="#f4d99d"/></linearGradient>
+ <linearGradient id="coat" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e5f5ff"/></linearGradient>
+</defs>
+<g filter="url(#shadow)" stroke="#28577d" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+ <!-- sticker white border -->
+ <path d="M55 75 Q52 35 92 30 L203 30 Q244 34 245 78 L248 201 Q247 247 203 252 L95 252 Q52 248 52 205Z" fill="#fff" stroke="#fff" stroke-width="17"/>
+ <!-- soap body -->
+ <path d="M55 78 Q58 40 94 37 L202 37 Q239 40 242 78 L246 197 Q246 238 207 244 L94 244 Q55 241 53 199Z" fill="url(#soap)"/>
+ <!-- goggles strap -->
+ <path d="M56 93 Q43 55 74 34 Q151 2 225 34 Q258 51 242 96" fill="none" stroke="#8ecdf1" stroke-width="14"/>
+ <!-- goggles -->
+ <rect x="73" y="30" width="70" height="53" rx="21" fill="#c9edff"/>
+ <rect x="157" y="30" width="70" height="53" rx="21" fill="#c9edff"/>
+ <path d="M143 53 Q150 43 157 53" fill="none" stroke="#28577d" stroke-width="8"/>
+ <path d="M88 43 Q110 31 130 43 M172 43 Q194 31 213 43" fill="none" stroke="#fff" stroke-width="7"/>
+ <!-- face -->
+ <path d="M100 143 Q109 158 119 143 M180 143 Q190 158 200 143" fill="none" stroke="#69472f" stroke-width="8"/>
+ <ellipse cx="89" cy="167" rx="14" ry="8" fill="#f5a6a3" stroke="none"/>
+ <ellipse cx="212" cy="167" rx="14" ry="8" fill="#f5a6a3" stroke="none"/>
+ <path d="M139 162 Q150 180 164 162 Q160 190 148 188 Q138 185 139 162Z" fill="#ed8c85" stroke="#69472f" stroke-width="5"/>
+ <!-- lab coat -->
+ <path d="M70 222 Q75 193 107 190 L149 210 L190 190 Q224 197 230 226 L239 280 L62 280Z" fill="url(#coat)"/>
+ <path d="M108 194 L149 230 L190 194 L176 281 L124 281Z" fill="#d7f0ff"/>
+ <path d="M149 229 L140 245 L151 257 L161 245Z" fill="#72bde7"/>
+ <path d="M88 218 L62 244 Q51 261 69 269 L105 246 M211 218 L238 242 Q252 260 232 272 L198 246" fill="none" stroke="#fff" stroke-width="15"/>
+ <path d="M88 218 L62 244 Q51 261 69 269 L105 246 M211 218 L238 242 Q252 260 232 272 L198 246" fill="none" stroke="#28577d" stroke-width="6"/>
+ <path d="M116 224 L130 232 M181 224 L168 232" fill="none" stroke="#8cc9e9" stroke-width="5"/>
+</g>
+<g fill="#65b8e8"><circle cx="38" cy="116" r="7"/><circle cx="264" cy="125" r="6"/><circle cx="38" cy="205" r="5"/></g>
+<g fill="#ffd46e" stroke="#e6ae36" stroke-width="3" stroke-linejoin="round"><path d="M25 65 L31 48 L39 65 L56 71 L39 78 L31 95 L25 78 L8 71Z"/></g>
+</svg>

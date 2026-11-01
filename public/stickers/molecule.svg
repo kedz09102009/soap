@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 170">
+<g stroke="#358dc2" stroke-width="8" stroke-linecap="round" fill="none">
+ <path d="M20 88 L48 62 L76 88 L104 62 L132 88 L160 62 L188 88"/>
+</g>
+<circle cx="225" cy="78" r="39" fill="#bde9ff" stroke="#fff" stroke-width="8"/>
+<circle cx="225" cy="78" r="31" fill="none" stroke="#358dc2" stroke-width="4"/>
+<text x="225" y="87" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="24" fill="#15527d">COO⁻</text>
+<g fill="#7fc8ed" stroke="#fff" stroke-width="4"><circle cx="38" cy="25" r="11"/><circle cx="75" cy="135" r="10"/><circle cx="278" cy="130" r="9"/></g>
+<path d="M20 145 L29 127 L38 145 L56 154 L38 163 L29 181 L20 163 L2 154Z" fill="#ffd46e" stroke="#e6ae36" stroke-width="3"/>
+</svg>
