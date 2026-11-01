@@ -25,7 +25,7 @@ mdc: true
     <div class="photo-hint">Có thể thay phần minh họa này bằng ảnh thành phẩm của nhóm.</div>
   </div>
 </div>
-<img class="kawaii-sticker kawaii-cover-sticker" src="/stickers/mascot-soap.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-cover-sticker" :src="import.meta.env.BASE_URL + 'stickers/mascot-soap.svg'" alt="" aria-hidden="true" />
 
 ---
 # Từ dầu dừa đến xà phòng
@@ -46,7 +46,7 @@ mdc: true
 </div>
 
 <div class="bottom-note">MẠCH BÁO CÁO: NGUYÊN LÝ → QUÁ TRÌNH → KẾT QUẢ</div>
-<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/mascot-soap.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-corner-sticker" :src="import.meta.env.BASE_URL + 'stickers/mascot-soap.svg'" alt="" aria-hidden="true" />
 
 ---
 # Mục tiêu thực hành
@@ -73,7 +73,7 @@ mdc: true
     <p>Rèn luyện sự cẩn thận, chính xác, hợp tác và ý thức an toàn.</p>
   </div>
 </div>
-<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/flask.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-corner-sticker" :src="import.meta.env.BASE_URL + 'stickers/flask.svg'" alt="" aria-hidden="true" />
 
 ---
 # Nguyên liệu & dụng cụ
@@ -98,7 +98,7 @@ mdc: true
 </div>
 
 <div class="bottom-note">ĐỊNH LƯỢNG THEO PHIẾU THỰC HÀNH ĐÃ ĐƯỢC GIÁO VIÊN DUYỆT.</div>
-<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/coconut.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-corner-sticker" :src="import.meta.env.BASE_URL + 'stickers/coconut.svg'" alt="" aria-hidden="true" />
 
 ---
 # Cơ sở lý thuyết · Phản ứng xà phòng hóa
@@ -128,7 +128,7 @@ mdc: true
 </div>
 
 <div class="bottom-note">R ĐẠI DIỆN CHO GỐC HYDROCARBON CỦA AXIT BÉO.</div>
-<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/mascot-book.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-corner-sticker" :src="import.meta.env.BASE_URL + 'stickers/mascot-book.svg'" alt="" aria-hidden="true" />
 
 ---
 # Vì sao xà phòng có thể làm sạch?
@@ -151,7 +151,7 @@ mdc: true
 </div>
 
 <div class="micro-note">MỞ RỘNG: CÁC PHÂN TỬ XÀ PHÒNG TẬP HỢP THÀNH MICELLE, GIÚP PHÂN TÁN DẦU MỠ TRONG NƯỚC.</div>
-<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/molecule.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-corner-sticker" :src="import.meta.env.BASE_URL + 'stickers/molecule.svg'" alt="" aria-hidden="true" />
 
 ---
 # Quá trình thực hành
@@ -166,7 +166,7 @@ mdc: true
 </div>
 
 <div class="safety-callout"><b>Giới hạn của slide:</b> Đây là sơ đồ tường thuật quá trình đã thực hiện, không phải hướng dẫn thao tác để tự điều chế NaOH hoặc xà phòng.</div>
-<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/flask.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-corner-sticker" :src="import.meta.env.BASE_URL + 'stickers/flask.svg'" alt="" aria-hidden="true" />
 
 ---
 # Một số lưu ý
@@ -182,7 +182,7 @@ mdc: true
 </div>
 
 <div class="bottom-note source-safety-footnote">CHỈ SỬ DỤNG XÀ PHÒNG TRÊN DA KHI ĐÃ ĐƯỢC KIỂM TRA VÀ ĐẢM BẢO AN TOÀN.</div>
-<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/soap-bars.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-corner-sticker" :src="import.meta.env.BASE_URL + 'stickers/soap-bars.svg'" alt="" aria-hidden="true" />
 
 ---
 # Những gì nhóm đã quan sát
@@ -205,7 +205,7 @@ mdc: true
 </div>
 
 <div class="bottom-note">CHỈ GHI NHẬN NHỮNG GÌ NHÓM THỰC SỰ QUAN SÁT.</div>
-<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/mascot-check.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-corner-sticker" :src="import.meta.env.BASE_URL + 'stickers/mascot-check.svg'" alt="" aria-hidden="true" />
 
 ---
 # Thành phẩm của nhóm
@@ -225,7 +225,7 @@ mdc: true
 </div>
 
 <div class="bottom-note">THAY CÁC Ô TRỐNG BẰNG KẾT QUẢ THỰC TẾ CỦA NHÓM.</div>
-<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/soap-bars.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-corner-sticker" :src="import.meta.env.BASE_URL + 'stickers/soap-bars.svg'" alt="" aria-hidden="true" />
 
 ---
 # Đánh giá & ứng dụng
@@ -243,7 +243,7 @@ mdc: true
   <div><b>HỌC TẬP</b><span>Vận dụng Hóa học</span></div>
   <div><b>PHÁT TRIỂN</b><span>Ý tưởng sản phẩm thủ công</span></div>
 </div>
-<img class="kawaii-sticker kawaii-corner-sticker" src="/stickers/coconut.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-corner-sticker" :src="import.meta.env.BASE_URL + 'stickers/coconut.svg'" alt="" aria-hidden="true" />
 
 ---
 <div class="closing-slide final-report">
@@ -257,5 +257,5 @@ mdc: true
   <div class="cover-rule"></div>
   <h2>CẢM ƠN CÔ VÀ CÁC BẠN ĐÃ LẮNG NGHE!</h2>
 </div>
-<img class="kawaii-sticker kawaii-closing-sticker" src="/stickers/mascot-soap.svg" alt="" aria-hidden="true" />
+<img class="kawaii-sticker kawaii-closing-sticker" :src="import.meta.env.BASE_URL + 'stickers/mascot-soap.svg'" alt="" aria-hidden="true" />
 
