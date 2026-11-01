@@ -2,7 +2,7 @@
 theme: seriph
 title: Báo cáo thực hành điều chế xà phòng handmade
 description: Từ dầu dừa đến sản phẩm xà phòng qua phản ứng xà phòng hóa
-colorSchema: dark
+colorSchema: light
 transition: slide
 mdc: true
 ---

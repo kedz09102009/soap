@@ -660,3 +660,145 @@
     grid-column: span 6;
   }
 }
+
+
+
+/* CUTE BLUE / KAWAII CHEMISTRY */
+:root {
+  --soap-bg: #eaf6ff;
+  --soap-panel: #ffffff;
+  --soap-panel-2: #d9efff;
+  --soap-cream: #173b5b;
+  --soap-muted: #426783;
+  --soap-orange: #238bd1;
+  --soap-line: rgba(45, 133, 190, .20);
+  --soap-blue-deep: #15527d;
+}
+.slidev-layout {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 8% 12%, rgba(151,218,255,.42), transparent 22%),
+    radial-gradient(circle at 94% 88%, rgba(190,231,255,.55), transparent 24%),
+    linear-gradient(135deg,#f4fbff 0%,#e7f5ff 55%,#f5fbff 100%);
+  color: var(--soap-cream);
+}
+.slidev-layout::before, .slidev-layout::after {
+  position: absolute; z-index: 0; pointer-events: none; user-select: none;
+  line-height: 1; filter: drop-shadow(0 5px 7px rgba(45,133,190,.12));
+}
+.slidev-layout::before {
+  content: "🫧"; top: 1.05rem; right: 1.35rem; font-size: 2.25rem;
+  opacity: .78; animation: kawaii-float 4.8s ease-in-out infinite;
+}
+.slidev-layout::after {
+  content: "💧"; bottom: 1.05rem; left: 1.25rem; font-size: 1.65rem;
+  opacity: .48; animation: kawaii-bob 5.6s ease-in-out infinite;
+}
+.slidev-layout > * { position: relative; z-index: 1; }
+.slidev-layout h1, .slidev-layout h2, .slidev-layout h3 { color: #15527d; }
+.slidev-layout h1 { text-shadow: 0 2px 0 rgba(255,255,255,.7); }
+.slidev-layout h1::after {
+  background: linear-gradient(90deg,#39a8e8,#8bd5ff); border-radius: 999px;
+}
+.slidev-layout .eyebrow, .slidev-layout .card-number,
+.slidev-layout .source-note-number, .slidev-layout .result-heading {
+  color: #1684c5;
+}
+.slidev-layout .section-lead, .slidev-layout .bottom-note,
+.slidev-layout .cover-subtitle, .slidev-layout .cover-meta,
+.slidev-layout .question-main p, .slidev-layout .mini-stat span,
+.slidev-layout .info-card p, .slidev-layout .material-primary p,
+.slidev-layout .material-row span, .slidev-layout .product-pair span,
+.slidev-layout .concept-item span, .slidev-layout .explain-row p,
+.slidev-layout .timeline-report-item p, .slidev-layout .micro-note,
+.slidev-layout .photo-slot small, .slidev-layout .result-photo-slot small,
+.slidev-layout .result-line span, .slidev-layout .evaluation-card p,
+.slidev-layout .application-strip span, .slidev-layout .closing-takeaways span,
+.slidev-layout .source-note-card p { color: #426783; }
+
+.slidev-layout .question-main, .slidev-layout .info-card,
+.slidev-layout .material-primary, .slidev-layout .reaction-panel,
+.slidev-layout .molecule-card, .slidev-layout .explain-row,
+.slidev-layout .result-observations, .slidev-layout .evaluation-card,
+.slidev-layout .source-note-card {
+  background: rgba(255,255,255,.9);
+  border: 1px solid rgba(70,160,215,.22);
+  border-radius: 1.25rem;
+  box-shadow: 0 9px 24px rgba(48,126,174,.08);
+}
+.slidev-layout .accent-card, .slidev-layout .highlight-explain,
+.slidev-layout .source-note-card.patience-note {
+  background: linear-gradient(145deg,#fff,#e7f6ff);
+  border-color: rgba(35,139,209,.38);
+}
+.slidev-layout .mini-stat, .slidev-layout .material-row {
+  background: rgba(255,255,255,.75);
+  border: 1px solid rgba(70,160,215,.2); border-radius: .95rem;
+}
+.slidev-layout .mini-stat strong, .slidev-layout .material-row b,
+.slidev-layout .explain-row b, .slidev-layout .evaluation-card b,
+.slidev-layout .application-strip b, .slidev-layout .closing-takeaways b {
+  color: #1684c5;
+}
+.slidev-layout .card-icon { color: #42a9e4; }
+.slidev-layout .cover-rule {
+  background: linear-gradient(90deg,#238bd1,#9cddff); border-radius: 999px;
+}
+.slidev-layout .cover-meta span { color: #238bd1; }
+.slidev-layout .cover-visual {
+  border: 1px solid rgba(70,160,215,.25); border-radius: 1.6rem;
+  background: radial-gradient(circle at 50% 40%,rgba(133,211,255,.45),transparent 58%),
+              linear-gradient(145deg,#dff3ff,#f8fcff);
+  box-shadow: 0 15px 35px rgba(48,126,174,.12);
+}
+.slidev-layout .bar-back { background: #7fc5ed; }
+.slidev-layout .bar-mid { background: #b6e2fb; }
+.slidev-layout .bar-front {
+  background: linear-gradient(135deg,#e5f7ff,#8cccf0); color: #174c70;
+  box-shadow: 0 1rem 2rem rgba(46,119,163,.18);
+}
+.slidev-layout .visual-caption { color: #1684c5; }
+.slidev-layout .photo-hint { color: #426783; }
+.slidev-layout .reaction-symbol { color: #426783; }
+.slidev-layout .reaction-arrow { color: #1684c5; }
+.slidev-layout .product-pair > div { border-top-color: #56b5e9; }
+.slidev-layout .concept-item { border-left-color: #56b5e9; }
+.slidev-layout .molecule-tail span { background: #68b9e8; }
+.slidev-layout .molecule-head {
+  background: #b8e6ff; color: #15527d; border: 2px solid #69bce9;
+}
+.slidev-layout .molecule-labels { color: #426783; }
+.slidev-layout .molecule-labels span:last-child { color: #1684c5; }
+.slidev-layout .micro-note { border-left-color: #49aee5; }
+.slidev-layout .timeline-number { background: #d9f0ff; color: #167fbd; }
+.slidev-layout .safety-callout {
+  background: #fff8e8; border: 1px solid #f0d99e; color: #69552b;
+  border-radius: 1rem;
+}
+.slidev-layout .photo-slot, .slidev-layout .result-photo-slot {
+  background: radial-gradient(circle at 50% 35%,rgba(137,211,250,.28),transparent 58%),#f8fcff;
+  border: 2px dashed rgba(35,139,209,.42); border-radius: 1.2rem;
+}
+.slidev-layout .photo-slot span, .slidev-layout .result-photo-slot span {
+  color: #1684c5;
+}
+.slidev-layout .result-line { border-bottom-color: rgba(45,133,190,.16); }
+.slidev-layout .application-strip > div {
+  background: #e2f4ff; border: 1px solid rgba(35,139,209,.2);
+  border-radius: .9rem;
+}
+.slidev-layout .closing-slide h2 { color: #1684c5; }
+
+@keyframes kawaii-float {
+  0%,100% { transform: translateY(0) rotate(-5deg); }
+  50% { transform: translateY(-9px) rotate(6deg); }
+}
+@keyframes kawaii-bob {
+  0%,100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-6px) rotate(9deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .slidev-layout::before, .slidev-layout::after { animation: none !important; }
+}
